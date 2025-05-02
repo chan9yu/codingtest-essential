@@ -19,3 +19,4 @@
 ### [1주차] 알고리즘 복잡도 분석
 
 1. [시간복잡도 이해하기](./__documents__/01-01-time-complexity.md)
+1. [공간복잡도 이해하기](./__documents__/01-02-space-complexity.md)
