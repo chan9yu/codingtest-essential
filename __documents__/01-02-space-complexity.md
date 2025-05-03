@@ -191,3 +191,9 @@ function solution(string) {
 > 그러나 대부분의 알고리즘 문제에서는 **시간복잡도**가 더 중요한 제약 조건이 된다
 > <br />
 > 공간복잡도가 상수라면 **시간복잡도를 최적화하는 데 집중**해야 한다
+
+<br />
+
+<a href="https://github.com/chan9yu/codingtest-essential">
+  <img src="https://img.shields.io/badge/📖-목차로&nbsp;돌아가기-blue" alt="목차로 돌아가기">
+</a>

@@ -150,3 +150,9 @@ for (const number of array) {
 - O(N²) 알고리즘은 큰 입력값에서 비효율적이므로, 가능하면 낮은 차수의 시간복잡도 $O(1)$, $O(log N)$, $O(N)$ 으로 최적화해야 한다
 - 시간 복잡도는 입력 크기가 증가할 때 연산량이 어떻게 변화하는지를 분석하는 것이 핵심이다
 - 좋은 알고리즘을 설계하려면 연산량이 급격히 증가하지 않도록 고려해야 한다
+
+<br />
+
+<a href="https://github.com/chan9yu/codingtest-essential">
+  <img src="https://img.shields.io/badge/📖-목차로&nbsp;돌아가기-blue" alt="목차로 돌아가기">
+</a>
