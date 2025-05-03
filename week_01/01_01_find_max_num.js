@@ -22,15 +22,15 @@
 // }
 
 function solution(array) {
-  let maxNum = Number.MIN_SAFE_INTEGER;
+	let maxNum = Number.MIN_SAFE_INTEGER;
 
-  for (const number of array) {
-    if (maxNum < number) {
-      maxNum = number;
-    }
-  }
+	for (const number of array) {
+		if (maxNum < number) {
+			maxNum = number;
+		}
+	}
 
-  return maxNum;
+	return maxNum;
 }
 
 console.log("정답 = 6 / 현재 풀이 값 = ", solution([3, 5, 6, 1, 2, 4]));

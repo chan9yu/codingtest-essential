@@ -30,28 +30,28 @@
 // }
 
 function solution(string) {
-  const alphabetOccurrenceArray = new Array(26).fill(0);
+	const alphabetOccurrenceArray = new Array(26).fill(0);
 
-  for (let i = 0; i < string.length; i++) {
-    const char = string[i].toLowerCase();
-    if (!/[a-z]/.test(char)) continue;
+	for (let i = 0; i < string.length; i++) {
+		const char = string[i].toLowerCase();
+		if (!/[a-z]/.test(char)) continue;
 
-    const arrIndex = char.charCodeAt(0) - "a".charCodeAt(0);
-    alphabetOccurrenceArray[arrIndex] += 1;
-  }
+		const arrIndex = char.charCodeAt(0) - "a".charCodeAt(0);
+		alphabetOccurrenceArray[arrIndex] += 1;
+	}
 
-  let maxOccurrence = 0;
-  let maxAlphabetIndex = 0;
+	let maxOccurrence = 0;
+	let maxAlphabetIndex = 0;
 
-  for (let index = 0; index < alphabetOccurrenceArray.length; index++) {
-    const occurrence = alphabetOccurrenceArray[index];
-    if (maxOccurrence < occurrence) {
-      maxOccurrence = occurrence;
-      maxAlphabetIndex = index;
-    }
-  }
+	for (let index = 0; index < alphabetOccurrenceArray.length; index++) {
+		const occurrence = alphabetOccurrenceArray[index];
+		if (maxOccurrence < occurrence) {
+			maxOccurrence = occurrence;
+			maxAlphabetIndex = index;
+		}
+	}
 
-  return String.fromCharCode(maxAlphabetIndex + "a".charCodeAt(0));
+	return String.fromCharCode(maxAlphabetIndex + "a".charCodeAt(0));
 }
 
 console.log("정답 = a 현재 풀이 값 =", solution("hello my name is chan9yu"));

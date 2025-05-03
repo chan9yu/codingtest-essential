@@ -4,11 +4,11 @@
 # [3, 5, 6, 1, 2, 4]
 
 def solution(number, array):
-    for item in array:
-      if number == item:
-        return True
+	for item in array:
+		if number == item:
+			return True
 
-    return False
+	return False
 
 print("정답 = True 현재 풀이 값 =", solution(3, [3,5,6,1,2,4]))
 print("정답 = Flase 현재 풀이 값 =", solution(7, [6,6,6]))
