@@ -21,3 +21,10 @@
 1. [시간복잡도 이해하기](./__documents__/01-01-time-complexity.md)
 1. [공간복잡도 이해하기](./__documents__/01-02-space-complexity.md)
 1. [점근 표기법 이해하기](./__documents__/01-03-asymptotic-notation.md)
+
+### [2주차] 기본 자료구조와 탐색 기초
+
+1. [Array와 LinkedList](./__documents__/02-01-array-linkedlist.md)
+1. 클래스
+1. 이진 탐색
+1. 재귀 함수
