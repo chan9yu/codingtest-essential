@@ -25,6 +25,6 @@
 ### [2주차] 기본 자료구조와 탐색 기초
 
 1. [Array와 LinkedList](./__documents__/02-01-array-linkedlist.md)
-1. 클래스
+1. [클래스와 객체](./__documents__/02-02-class-object.md)
 1. 이진 탐색
 1. 재귀 함수
